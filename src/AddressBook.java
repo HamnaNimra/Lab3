@@ -27,6 +27,8 @@ public class AddressBook {
 	
 		
 		System.out.println("Address Book");
+		BuddyInfo Omar = new BuddyInfo();
+		
 	 
 
 	}
