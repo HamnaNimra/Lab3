@@ -24,13 +24,10 @@ public class AddressBook {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	
-		
-		System.out.println("Address Book");
-		BuddyInfo Omar = new BuddyInfo();
-		
-	 
-
-	}
+		BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", "1234");
+		AddressBook addressBook= new AddressBook();
+		addressBook.addBuddy(buddy);
+		addressBook.removeBuddy(0);
+		}
 	
 }
